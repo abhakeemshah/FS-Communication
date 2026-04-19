@@ -125,6 +125,11 @@ export default function LandingPage() {
             </a>
           </div>
         </div>
+        <div className="max-w-7xl mx-auto mt-4 pt-4 border-t border-outline-variant flex items-center gap-2 text-[10px] text-on-surface-variant/60">
+          <span className="material-symbols-outlined text-[14px]">commit</span>
+          <span>Last commit: <span className="font-mono font-semibold">Initial project snapshot</span></span>
+          <span className="font-mono opacity-50">(ceca1a7)</span>
+        </div>
       </footer>
     </>
   );
